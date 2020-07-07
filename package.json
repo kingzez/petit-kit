@@ -2,10 +2,10 @@
   "name": "petit-kit",
   "version": "1.0.2",
   "description": "tool kit",
-  "main": "index.js",
+  "main": "dist/index.min.js",
   "scripts": {
-    "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc && terser ./dist/index.js -o ./dist/index.min.js",
+    "terser": "terser index.js -o index.min.js"
   },
   "keywords": [
     "util",
@@ -13,12 +13,14 @@
     "kit"
   ],
   "files": [
-    "index.js",
-    "index.d.ts"
+    "dist/index.js",
+    "dist/index.min.js",
+    "dist/index.d.ts"
   ],
   "author": "vincentw",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^3.9.6"
+    "typescript": "^3.9.6",
+    "terser": "^4.8.0"
   }
 }
