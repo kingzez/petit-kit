@@ -1,6 +1,6 @@
 {
   "name": "petit-kit",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "tool kit",
   "main": "dist/index.min.js",
   "scripts": {
@@ -18,6 +18,14 @@
     "dist/index.d.ts"
   ],
   "author": "vincentw",
+  "homepage": "https://github.com/kingzez/petit-kit",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kingzez/petit-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kingzez/petit-kit/issues"
+  },
   "license": "MIT",
   "devDependencies": {
     "typescript": "^3.9.6",
