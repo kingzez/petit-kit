@@ -1,6 +1,6 @@
 {
-  "name": "tool-kit",
-  "version": "1.0.0",
+  "name": "petit-kit",
+  "version": "1.0.1",
   "description": "tool kit",
   "main": "index.js",
   "scripts": {
@@ -12,9 +12,13 @@
     "tool",
     "kit"
   ],
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "author": "vincentw",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "typescript": "^3.9.6"
   }
 }
