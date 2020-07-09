@@ -1,7 +1,7 @@
 {
   "name": "petit-kit",
   "version": "1.0.5",
-  "description": "tool kit",
+  "description": "A tiny tool kit library.",
   "main": "dist/index.min.js",
   "scripts": {
     "build": "tsc && terser ./dist/index.js -o ./dist/index.min.js",
