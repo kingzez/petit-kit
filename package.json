@@ -17,6 +17,7 @@
     "dist/index.min.js",
     "dist/index.d.ts"
   ],
+  "typings": "dist/index.d.ts",
   "author": "vincentw",
   "homepage": "https://github.com/kingzez/petit-kit",
   "repository": {
