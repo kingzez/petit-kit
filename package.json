@@ -4,8 +4,10 @@
   "description": "A tiny tool kit library.",
   "main": "dist/index.min.js",
   "scripts": {
-    "build": "tsc && terser ./dist/index.js -o ./dist/index.min.js",
-    "terser": "terser index.js -o index.min.js"
+    "watch": "tsc -w",
+    "build": "tsc && npm run terser",
+    "terser": "terser ./dist/index.js -o ./dist/index.min.js",
+    "test": "jest"
   },
   "keywords": [
     "util",
@@ -29,7 +31,10 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^3.9.6",
-    "terser": "^4.8.0"
+    "@types/jest": "^26.0.4",
+    "jest": "^26.1.0",
+    "terser": "^4.8.0",
+    "ts-jest": "^26.1.2",
+    "typescript": "^3.9.6"
   }
 }
