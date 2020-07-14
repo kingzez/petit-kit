@@ -1,4 +1,8 @@
 # petit-kit
+![](https://flat.badgen.net/bundlephobia/minzip/petit-kit)
+![](https://img.shields.io/npm/v/petit-kit.svg)
+![](https://img.shields.io/npm/l/petit-kit.svg)
+
 A tiny tool kit library. *[keep adding]*
 
 ## Installation
