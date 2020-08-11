@@ -2,7 +2,7 @@
   "name": "petit-kit",
   "version": "1.0.6",
   "description": "A tiny tool kit library.",
-  "main": "dist/index.min.js",
+  "main": "dist/index.js",
   "scripts": {
     "watch": "tsc -w",
     "build": "tsc && npm run terser",
